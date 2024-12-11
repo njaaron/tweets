@@ -1,4 +1,3 @@
-// TweetDetails.js
 const TweetDetails = ({ tweets }) => {
     return (
       <div style={{ marginTop: "20px" }}>

@@ -1,4 +1,3 @@
-// Dropdown.js
 const Dropdown = ({ colorBy, setColorBy }) => {
     return (
       <div>

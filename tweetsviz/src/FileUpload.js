@@ -1,4 +1,3 @@
-// FileUpload.js
 import React, { Component } from "react";
 
 class FileUpload extends Component {

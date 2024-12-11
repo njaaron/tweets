@@ -11,12 +11,12 @@ class App extends Component {
       data: [],
       colorBy: "Sentiment",
       selectedTweets: [],
-      fileUploaded: false, // New state to track file upload
+      fileUploaded: false, 
     };
   }
 
   setData = (data) => {
-    this.setState({ data, fileUploaded: true }); // Update fileUploaded to true
+    this.setState({ data, fileUploaded: true }); 
   };
 
   setColorBy = (colorBy) => {
@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div>
         <FileUpload set_data={this.setData} />
-        {fileUploaded && ( // Conditionally render components
+        {fileUploaded && ( 
           <>
             <Dropdown colorBy={colorBy} setColorBy={this.setColorBy} />
             <Visualization
